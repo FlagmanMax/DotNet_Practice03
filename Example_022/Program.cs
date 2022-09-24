@@ -4,14 +4,7 @@
 // 5 -> 1, 4, 9, 16, 25.
 // 2 -> 1,4
 
-Console.WriteLine("Введите число:");
-int x = Convert.ToInt32(Console.ReadLine());
-
-if (x<1)
-{
-   Console.WriteLine("Ошибка ввода"); 
-}
-else
+void example22(int x)
 {
     int count = 1;
     Console.Write("Число\tКвадрат\r\n");
@@ -21,5 +14,17 @@ else
         count++;
     }
     Console.WriteLine();
+}
+
+Console.WriteLine("Введите число:");
+int x = Convert.ToInt32(Console.ReadLine());
+
+if (x<1)
+{
+   Console.WriteLine("Ошибка ввода"); 
+}
+else
+{
+    example22(x);
 }
 
