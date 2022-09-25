@@ -90,4 +90,4 @@ arrayNo3 = deleteNumber3(array);
 int newLen = getLen(arrayNo3);
 displayArray(arrayNo3,newLen);
 
-Console.WriteLine("\n" + newLen);
+Console.WriteLine($"\nУдалено {100-newLen} элементов с цифрой 3");
